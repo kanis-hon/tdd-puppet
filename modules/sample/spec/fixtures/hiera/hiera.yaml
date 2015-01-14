@@ -1,0 +1,13 @@
+---
+:hierarchy:
+  - "host/%{::hostname}/module/%{module_name}"
+  - "host/%{::hostname}"
+  - default
+
+:backends:
+  - yaml
+
+:yaml:
+  :datadir: "/Users/kanis/Documents/projects/tdd-puppet/modules/hiera"
+
+:merge_behavior: deeper
